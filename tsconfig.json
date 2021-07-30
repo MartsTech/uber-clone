@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
     "experimentalDecorators": true,
     "target": "es2017",
     "module": "commonjs",
@@ -21,6 +20,7 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,
+    "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "removeComments": true
   },
