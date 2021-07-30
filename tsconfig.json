@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "jsx": "react-native",
+    "lib": [
+      "es6",
+      "esnext.asynciterable",
+      "es2017"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true
+  },
+  "extends": "expo/tsconfig.base"
+}
