@@ -29,9 +29,8 @@
 ## Key Features
 
 - iOS & Android
-- Real navigation
+- Real world navigation
 - Calculate Travel time, Distance and Cost
-- Distance Matrix
 - Apple & Google maps for iOS & Android
 - Navigate between screens
 - Elegant Design
@@ -51,10 +50,13 @@
 
 ## Setup
 
-Clone this repo to your desktop and run `expo install` to install all the dependencies.
-Then run `exopo start` to start the application locally
+Clone this repo to your desktop and run `yarn install` to install all the dependencies.
+Then run `expo start` to start the application locally
 
 Change the .env.example file to .env.local and fill the empty fields
+
+Create a billing account in Google Clound and add Places, Directions and Distance Matrix as APIs
+Then create an API key and add it to your .env file
 
 ---
 
@@ -70,6 +72,6 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## License
 
-> You can check out the full license [here](https://github.com/MartsTech/amazon-clone/blob/main/LICENSE)
+> You can check out the full license [here](https://github.com/MartsTech/uber-clone/blob/main/LICENSE)
 
 This project is licensed under the terms of the **MIT** license
