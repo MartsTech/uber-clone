@@ -20,8 +20,8 @@
   <a href="#license">License</a>
 </p>
 <div align="center">
-  <img width="400px" height="800px" style="object-fit: contain" src="https://raw.githubusercontent.com/MartsTech/uber-clone/main/assets/screenshots/home.png?token=ARHRI5H5QRE35OMJJ37XMZ3BAW5OQ" alt="home" />
-  <img width="400px" height="800px" style="object-fit: contain" src="https://raw.githubusercontent.com/MartsTech/uber-clone/main/assets/screenshots/map.png?token=ARHRI5AAXALWQK2PQMBJVFTBAW5RC" alt="map" />
+  <img width="400px" height="800px" style="object-fit: contain" src="https://raw.githubusercontent.com/MartsTech/uber-clone/main/assets/screenshots/home.png" alt="home" />
+  <img width="400px" height="800px" style="object-fit: contain" src="https://raw.githubusercontent.com/MartsTech/uber-clone/main/assets/screenshots/map.png" alt="map" />
 </div>
 
 ---
