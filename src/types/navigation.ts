@@ -6,8 +6,8 @@ export type RootStackParamList = {
 };
 
 export type MapStackParamList = {
-  NavCard: undefined;
-  RideOptionsCard: undefined;
+  MapCard: undefined;
+  MapRide: undefined;
 };
 
 export type RootNavigationProp = StackNavigationProp<any>;

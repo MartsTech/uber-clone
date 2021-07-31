@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Uber X",
+    "multiplier": 1,
+    "image": "https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_485,h_385/f_auto,q_auto/products/carousel/UberX.png"
+  },
+  {
+    "title": "Uber XL",
+    "multiplier": 1.2,
+    "image": "https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_485,h_385/f_auto,q_auto/products/carousel/UberXL.png"
+  },
+  {
+    "title": "Uber LUX",
+    "multiplier": 1.75,
+    "image": "https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_485,h_385/f_auto,q_auto/products/carousel/Lux.png"
+  }
+]

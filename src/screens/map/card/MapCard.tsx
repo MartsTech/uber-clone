@@ -1,9 +1,11 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import GooglePlacesSearchInput from "../search/GooglePlacesSearchInput";
+import GooglePlacesSearchInput from "../../../components/search/GooglePlacesSearchInput";
+import MapButtons from "./MapCardButtons";
+import MapCardFavourites from "./MapCardFavourites";
 
-const NavCard = () => {
+const MapCard = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Good Morning</Text>
@@ -13,12 +15,14 @@ const NavCard = () => {
           placeholder="Where To?"
           styles={inputStyles}
         />
+        <MapCardFavourites />
       </View>
+      <MapButtons />
     </SafeAreaView>
   );
 };
 
-export default NavCard;
+export default MapCard;
 
 const styles = StyleSheet.create({
   container: {
@@ -29,7 +33,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     paddingBottom: 20,
     fontSize: 20,
-    lineHeight: 28,
+    lineHeight: 20,
   },
   details: {
     borderTopWidth: 1,
@@ -51,6 +55,5 @@ const inputStyles = StyleSheet.create({
   },
   textInputContainer: {
     paddingHorizontal: 20,
-    paddingBottom: 0,
   },
 });

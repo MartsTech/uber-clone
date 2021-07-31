@@ -1,0 +1,12 @@
+[
+  {
+    "icon": "home",
+    "location": "Home",
+    "destination": "Code Street, London, UK"
+  },
+  {
+    "icon": "briefcase",
+    "location": "Work",
+    "destination": "London Eye, London, UK"
+  }
+]

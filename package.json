@@ -10,8 +10,10 @@
   "dependencies": {
     "@react-navigation/native": "^6.0.0-next.17",
     "@react-navigation/stack": "^6.0.0-next.29",
+    "axios": "^0.21.1",
     "expo": "~42.0.1",
     "expo-status-bar": "~1.0.4",
+    "intl": "^1.2.5",
     "mobx": "^6.3.2",
     "mobx-react-lite": "^3.2.0",
     "react": "16.13.1",
@@ -22,6 +24,7 @@
     "react-native-gesture-handler": "~1.10.2",
     "react-native-google-places-autocomplete": "^2.2.0",
     "react-native-maps": "^0.28.0",
+    "react-native-maps-directions": "^1.8.0",
     "react-native-reanimated": "~2.2.0",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "~3.4.0",

@@ -10,17 +10,17 @@ import {
   View,
 } from "react-native";
 import { Icon } from "react-native-elements";
-import navData from "../../data/navData.json";
+import optionsData from "../../data/homeOptionsData.json";
 import { useStore } from "../../stores/store";
-import { ScreenNavigationProp } from "../../types/navigation";
+import { RootNavigationProp } from "../../types/navigation";
 
 const NavOptions = () => {
-  const { origin } = useStore().navStore;
-  const navigation = useNavigation<ScreenNavigationProp>();
+  const { origin } = useStore().mapStore;
+  const navigation = useNavigation<RootNavigationProp>();
 
   return (
     <FlatList
-      data={navData}
+      data={optionsData}
       horizontal
       showsHorizontalScrollIndicator={false}
       keyExtractor={(item) => item.title}

@@ -1,8 +1,9 @@
 import React from "react";
 import { Image, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import GooglePlacesSearchInput from "../search/GooglePlacesSearchInput";
-import HomeNavOptions from "./HomeNavOptions";
+import MapCardFavourites from "../map/card/MapCardFavourites";
+import GooglePlacesSearchInput from "../../components/search/GooglePlacesSearchInput";
+import HomeOptions from "./HomeOptions";
 
 const HomeScreen = () => {
   return (
@@ -17,7 +18,8 @@ const HomeScreen = () => {
           placeholder="Where From?"
           styles={inputStyles}
         />
-        <HomeNavOptions />
+        <HomeOptions />
+        <MapCardFavourites />
       </View>
     </SafeAreaView>
   );
@@ -43,6 +45,7 @@ const styles = StyleSheet.create({
 const inputStyles = StyleSheet.create({
   container: {
     flex: 0,
+    zIndex: 50,
   },
   textInput: {
     fontSize: 18,

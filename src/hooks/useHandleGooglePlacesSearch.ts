@@ -7,7 +7,7 @@ import { useStore } from "../stores/store";
 import { MapNavigationProp } from "../types/navigation";
 
 export default () => {
-  const { setOrigin, setDestination } = useStore().navStore;
+  const { setOrigin, setDestination } = useStore().mapStore;
   const navigation = useNavigation<MapNavigationProp>();
 
   const handleOriginSearch = (
@@ -29,7 +29,7 @@ export default () => {
       location: details!.geometry.location,
       description: data.description,
     });
-    navigation.navigate("RideOptionsCard");
+    navigation.navigate("MapRide");
   };
 
   return [handleOriginSearch, handleDestinationSearch] as const;

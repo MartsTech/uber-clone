@@ -1,12 +1,15 @@
 import { createContext, useContext } from "react";
-import NavStore from "./navStore";
+import CommonStore from "./commonStore";
+import MapStore from "./mapStore";
 
 interface Store {
-  navStore: NavStore;
+  commonStore: CommonStore;
+  mapStore: MapStore;
 }
 
 export const store: Store = {
-  navStore: new NavStore(),
+  commonStore: new CommonStore(),
+  mapStore: new MapStore(),
 };
 
 export const StoreContext = createContext(store);
