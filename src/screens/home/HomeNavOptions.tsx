@@ -1,4 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
+import { observer } from "mobx-react-lite";
 import React from "react";
 import {
   FlatList,
@@ -6,12 +7,15 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
+  View,
 } from "react-native";
 import { Icon } from "react-native-elements";
 import navData from "../../data/navData.json";
+import { useStore } from "../../stores/store";
 import { ScreenNavigationProp } from "../../types/navigation";
 
 const NavOptions = () => {
+  const { origin } = useStore().navStore;
   const navigation = useNavigation<ScreenNavigationProp>();
 
   return (
@@ -24,8 +28,9 @@ const NavOptions = () => {
         <TouchableOpacity
           style={styles.item}
           onPress={() => navigation.navigate(screen)}
+          disabled={!origin}
         >
-          <>
+          <View style={!origin && { opacity: 0.2 }}>
             <Image source={{ uri: image }} style={styles.image} />
             <Text style={styles.title}>{title}</Text>
             <Icon
@@ -34,14 +39,14 @@ const NavOptions = () => {
               color="white"
               type="antdesign"
             />
-          </>
+          </View>
         </TouchableOpacity>
       )}
     />
   );
 };
 
-export default NavOptions;
+export default observer(NavOptions);
 
 const styles = StyleSheet.create({
   item: {

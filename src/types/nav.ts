@@ -1,6 +1,6 @@
 import { Point } from "react-native-google-places-autocomplete";
 
-export interface NavOrigin {
-  location: Point | undefined;
+export interface NavCords {
+  location: Point;
   description: string;
 }

@@ -5,4 +5,10 @@ export type RootStackParamList = {
   Map: undefined;
 };
 
-export type ScreenNavigationProp = StackNavigationProp<any>;
+export type MapStackParamList = {
+  NavCard: undefined;
+  RideOptionsCard: undefined;
+};
+
+export type RootNavigationProp = StackNavigationProp<any>;
+export type MapNavigationProp = StackNavigationProp<MapStackParamList>;
