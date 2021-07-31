@@ -1,7 +1,8 @@
 import { makeAutoObservable } from "mobx";
+import { NavOrigin } from "../types/nav";
 
 class NavStore {
-  origin = null;
+  origin: NavOrigin | null = null;
   destination = null;
   travelTimeInformation = null;
 
@@ -9,7 +10,7 @@ class NavStore {
     makeAutoObservable(this);
   }
 
-  setOrigin = (origin: any) => {
+  setOrigin = (origin: NavOrigin) => {
     this.origin = origin;
   };
 

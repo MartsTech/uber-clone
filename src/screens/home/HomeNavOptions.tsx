@@ -8,8 +8,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Icon } from "react-native-elements";
-import { ScreenNavigationProp } from "../../types/navigation";
 import navData from "../../data/navData.json";
+import { ScreenNavigationProp } from "../../types/navigation";
 
 const NavOptions = () => {
   const navigation = useNavigation<ScreenNavigationProp>();

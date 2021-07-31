@@ -1,9 +1,9 @@
-import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
+import React from "react";
 import HomeScreen from "../screens/home/HomeScreen";
-import { RootStackParamList } from "../types/navigation";
 import MapScreen from "../screens/map/MapScreen";
+import { RootStackParamList } from "../types/navigation";
 
 interface NavigationProps {}
 

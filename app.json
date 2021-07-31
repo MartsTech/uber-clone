@@ -1,6 +1,8 @@
 {
   "expo": {
-    "name": "uber-clone",
+    "userInterfaceStyle": "automatic",
+    "name": "Uber Clone",
+    "description": "Uber Clone created with React Native",
     "slug": "uber-clone",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },

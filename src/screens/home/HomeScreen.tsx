@@ -1,7 +1,8 @@
 import React from "react";
 import { Image, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import NavOptions from "../../components/options/NavOptions";
+import HomeNavOptions from "./HomeNavOptions";
+import HomePlacesInput from "./HomePlacesInput";
 
 const HomeScreen = () => {
   return (
@@ -11,7 +12,8 @@ const HomeScreen = () => {
           style={styles.image}
           source={require("../../../assets/images/logo.svg")}
         />
-        <NavOptions />
+        <HomePlacesInput />
+        <HomeNavOptions />
       </View>
     </SafeAreaView>
   );
