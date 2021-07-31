@@ -51,11 +51,12 @@
 ## Setup
 
 Clone this repo to your desktop and run `yarn install` to install all the dependencies.
-Then run `expo start` to start the application locally
+Then run `expo start` to start the application locally.
 
-Change the .env.example file to .env.local and fill the empty fields
+Change the .env.example file to .env.local.
 
-Create a billing account in Google Clound and add Places, Directions and Distance Matrix as APIs
+Create a billing account in Google Clound and add Places, Directions and Distance Matrix as APIs.
+
 Then create an API key and add it to your .env file
 
 ---
