@@ -59,6 +59,8 @@ Create a billing account in Google Clound and add Places, Directions and Distanc
 
 Then create an API key and add it to your .env file
 
+Download Expo Go from either Google Play or Apple Store to run the app on your phone
+
 ---
 
 ## Support
