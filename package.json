@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.4",
-    "@react-navigation/stack": "^6.0.9",
+    "@react-navigation/stack": "^6.0.10",
     "axios": "^0.22.0",
     "expo": "~42.0.4",
     "expo-status-bar": "~1.0.4",
