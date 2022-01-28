@@ -67,7 +67,7 @@ Download Expo Go from either Google Play or Apple Store to run the app on your p
 
 Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
 
-<a href="https://www.buymeacoffee.com/martstech" target="_blank">
+<a href="https://www.buymeacoffee.com/melqui" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60px" width="217px" />
 </a>
 
